@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/inputSeedOrKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Seed Phrase یا کلید خصوصی را وارد کنید" />
+
+    <Button
+        android:id="@+id/btnGenerateSeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="تولید کلمات بازیابی" />
+
+    <Button
+        android:id="@+id/btnCheckBalance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="بررسی موجودی" />
+
+    <TextView
+        android:id="@+id/tvBalance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="موجودی: -"
+        android:textSize="18sp" />
+</LinearLayout>
